@@ -15,4 +15,40 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <compileSource>1.8</compileSource>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <suiteXmlFile>src/test/resources/apitests.xml</suiteXmlFile>
+    </properties>
+    <build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>2.20.1</version>
+            <configuration>
+                <testFailureIgnore>false</testFailureIgnore>
+                <suiteXmlFiles>
+                    <suiteXmlFile>src/test/resources/apitests.xml</suiteXmlFile>
+                </suiteXmlFiles>
+                <properties>
+                    <property>
+                        <name>reporter</name>
+                        <value>org.testng.reporters.XMLReporter:generateTestResultAttributes=true,generateGroupsAttribute=true</value>
+                    </property>
+                </properties>
+            </configuration>
+        </plugin>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <configuration>
+                <source>8</source>
+                <target>8</target>
+            </configuration>
+        </plugin>
+    </plugins>
+    </build>
 </project>

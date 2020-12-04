@@ -1,4 +1,4 @@
-package com.aio.tests.tng;
+package com.nv.tests.tng;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

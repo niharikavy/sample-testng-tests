@@ -1,6 +1,6 @@
-package com.aio.tests.ui;
+package com.nv.tests.ui;
 
-import com.aio.tests.api.RetryClass;
+import com.nv.tests.api.RetryClass;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

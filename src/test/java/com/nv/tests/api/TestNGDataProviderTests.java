@@ -1,4 +1,4 @@
-package com.aio.tests.api;
+package com.nv.tests.api;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.CustomAttribute;

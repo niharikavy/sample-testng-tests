@@ -1,4 +1,4 @@
-package com.aio.tests;
+package com.nv.tests;
 
 import org.testng.ITestResult;
 import org.testng.Reporter;
