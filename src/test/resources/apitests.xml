@@ -3,9 +3,8 @@
 <suite name="TngSuite" verbose="1" >
     <test name="Testing first level" >
         <classes>
-<!--            <class name="com.aio.com.nv.tests.tng.InvocationCounts" />-->
-<!--            <class name="com.aio.com.nv.tests.tng.SkippedTests" />-->
             <class name="com.nv.tests.SoftAssertTests" />
+            <class name="com.nv.tests.api.TestNGDataProviderTests"></class>
         </classes>
     </test>
 </suite>
