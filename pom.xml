@@ -31,7 +31,7 @@
             <configuration>
                 <testFailureIgnore>false</testFailureIgnore>
                 <suiteXmlFiles>
-                    <suiteXmlFile>src/test/resources/apitests.xml</suiteXmlFile>
+                    <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
                 </suiteXmlFiles>
                 <properties>
                     <property>

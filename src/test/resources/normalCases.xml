@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="TngSuite" verbose="1" >
+    <test name="Testing first level" >
+        <classes>
+            <class name="com.nv.tests.api.TestsWithNoGroups" />
+        </classes>
+    </test>
+</suite>
